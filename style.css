@@ -1,39 +1,39 @@
 /* * is a universal selector it is apply on all elements 
-used to default spacing remove browser auto used the padding & margin in circumstances*/
-* {
+used to default auto  spacing remove of browser  used the
+ padding & margin in circumstances*/
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: sans-serif;
 }
-
-body {
+body{
   background:black;
 
 }
+/* navbar (logo,image) */
 .navbar{
   display: flex;
   justify-content: space-between;/* elements first mid last */
-  
   padding: 15px 20px;
 }
 .pro-img img{
-display: flex;
-width: 330px;
-height: auto;
-border-radius: 80%;
-margin-left: 270px;
-margin-top: -5px;
-box-shadow: 0 0 20px rgb(126, 202, 222);
+  display: flex;
+  width: 330px;
+  height: auto;
+  border-radius: 80%;
+  margin-left: 270px;
+  margin-top: -5px;
+  box-shadow: 0 0 20px rgb(126, 202, 222);
 
 }
 .logo{
   color: rgb(51, 163, 190); 
 }
+/* menu links */
 .nav-links{
-  
-  display: flex;
-  list-style: none;
+   display: flex;
+   list-style: none;
    padding-left: 600px;
 }
 .nav-links li{
@@ -41,7 +41,6 @@ box-shadow: 0 0 20px rgb(126, 202, 222);
 }
 .nav-links a{
   position:  relative;
-
   text-decoration: none;
   color: #fff;
   transition: 0.3s;
@@ -50,6 +49,7 @@ box-shadow: 0 0 20px rgb(126, 202, 222);
   color:rgb(110, 197, 218); 
 
 }
+/* menu arrangments */
 .menu{
   display: flex; /* it arrange into line or column */
   color: white;
@@ -62,19 +62,13 @@ box-shadow: 0 0 20px rgb(126, 202, 222);
 .menu:hover{
      color:rgb(110, 197, 218); 
 }
-#project button{
-  color: #7ab7c9;
-  margin-left: 100px;
-  margin-top: -40px;
-  border-radius: 4px;
-  padding: 5px;
-}
+/* short-intro */
 .hero{
-  height: 45vh; /* section cover the screen */
   display: flex;
- margin-left: 50px;
- margin-top: 40px;
- color: rgb(181, 213, 247);
+  height: 45vh; /* section cover the screen */
+  margin-left: 50px;
+  margin-top: 40px;
+  color: rgb(181, 213, 247);
 }
 .hero h1{
   margin-left: 10px;
@@ -100,11 +94,13 @@ box-shadow: 0 0 20px rgb(126, 202, 222);
   font-family: 'Courier New', Courier, monospace;
   margin-top: -5px;
   margin-left: 70px;
-  color: rgb(246, 238, 238);
   font-size: larger;
   max-width: 600px;
   line-height: 1.4;
+  color: rgb(246, 238, 238);
+  
 }
+/* about section */
 .section{
   height: 70vh;
   margin-left: 40px;
@@ -112,13 +108,12 @@ box-shadow: 0 0 20px rgb(126, 202, 222);
 }
 .section p{
   font-family: 'Courier New', Courier, monospace;
-   color:rgb(246, 238, 238);
-  font-size: larger;
   margin-top: -5px;
   margin-left: 70px;
+  font-size: larger;
   max-width: 600px;
   line-height: 1.4;
-
+  color:rgb(246, 238, 238);
 }
 .section h2{
   color:whitesmoke;
@@ -126,13 +121,14 @@ box-shadow: 0 0 20px rgb(126, 202, 222);
 }
 .section h3{
    font-family: 'Courier New', Courier, monospace;
-  color: rgb(51, 163, 190); 
-  margin-top: -23px;
-  margin-left: 225px;
-  font-size: x-large;
+   margin-top: -23px;
+   margin-left: 225px;
+   font-size: x-large;
+   color: rgb(51, 163, 190); 
 }
+/* buttons cv & hire me */
 .btn button{
-   padding: 3px 3px 3px 3px;
+  padding: 3px 3px 3px 3px;
   margin-top: 30px;
   margin-left: 70px;
   border-radius: 8px;
@@ -143,32 +139,31 @@ box-shadow: 0 0 20px rgb(126, 202, 222);
 }
 .btn button:hover{
   background-color: #124453;
-transform: translateY(-2px);
+  transform: translateY(-2px);
 
 }
 .btn #cv{
-background-color: #124453;
-color: white;
+ background-color: #124453;
+ color: white;
  transition: 0.3s;
 }
 .btn #cv:hover{
  background-color: #0d0d0d;
 }
+/* skills with indivdual effects section */
 .grid-container{
   display: flex;
   gap: 50px;
   margin-top: 20px;
   margin-left: 300px;
-
 }
-.item{
+.item{ 
   border: none;
-margin-top: 15px;
-width: 100px;
-border-radius: 4px;
- 
-box-shadow: 0px 0px 10px orange ;
-transition: 0.3s;
+  margin-top: 15px;
+  width: 100px;
+  border-radius: 4px;
+  box-shadow: 0px 0px 10px orange ;
+  transition: 0.3s;
 }
 .item:hover{
   color:orangered;
@@ -181,15 +176,15 @@ transition: 0.3s;
 .cssEd{
   margin-top: 12px;
   margin-left: 26px;
-    margin-bottom: 29px;
+  margin-bottom: 29px;
 }
 .jsEd{
-  margin-left: 10px;
   margin-top: 20px;
+  margin-left: 10px;
 }
 .reactEd{
+   margin-top: 8px;
   margin-left: 26px;
-  margin-top: 8px;
 }
 .gitEd{
   margin-top: -4px;
@@ -197,36 +192,36 @@ transition: 0.3s;
   margin-bottom: 26px;
 }
 .html-imgEd{
-  width: 60px;
-  margin-left: 21px;
+    width: 60px;
+    margin-left: 21px;
 }
  .css-imgEd{
-  width: 66px;
-   margin-left: 15px;
+    width: 66px;
+    margin-left: 15px;
 }
 .js-imgEd{
-  width: 55px;
-  margin-left: 19px;
-  margin-top: 10px;
+    width: 55px;
+    margin-top: 10px;
+    margin-left: 19px;
 }
 .react-imgEd{
-  margin-top: 13px;
-  margin-left: 22px;
-  width: 55px;
-  
+    width: 55px;
+    margin-top: 13px;
+    margin-left: 22px;  
 }
 .git-imgEd{
-  width: 80px;
-  margin-left: 9px;
-  margin-top: 5px;
+   width: 80px;
+   margin-top: 5px;
+   margin-left: 9px;
 }
+/* projects  */
 .projects{
-  height: 100px;
+   display: flex;
+   height: 100px;
    color:  rgb(24, 23, 23);
-  display: flex;
-  justify-content: center;
-  gap: 40px;
-  flex-wrap: wrap;
+   justify-content: center;
+   gap: 40px;
+   flex-wrap: wrap;
 }
 .card {
   background:transparent;
@@ -252,6 +247,7 @@ transition: 0.3s;
  .card a:hover{
   color: rgb(244, 125, 81);
  }
+ /* projects links live,github */
 .section a{
   justify-content: center;
   color: #fff; 
@@ -259,7 +255,7 @@ transition: 0.3s;
   text-decoration: none;
 }
 .section a button{
-  background-color: #dccece;
+    background-color: #dccece;
     color: #121111;
     padding: 8px 8px 8px 60px;
     padding-right: 70px;
@@ -269,28 +265,28 @@ transition: 0.3s;
     transition: 0.3s;
 }
 .section a button:hover{
-  background-color: #4ea5af;
-  transform: translateY(-1px);
+    background-color: #4ea5af;
+    transform: translateY(-1px);
   
 }
+/* form in touch */
 .form-container{
-  justify-content: center;
-  text-align: center;
-  margin-top: 50px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
 
 }
 .form-container input{
-  color:whitesmoke;
-  font-size: large;
   background-color: rgba(63, 62, 62, 0.905);
+  font-size: large;
+  color:whitesmoke;
   backdrop-filter: blur(10px);
   width: 220px;
   height: 50px;
   margin-bottom: 14px;
-   border: 1px solid rgba(255,255,255,0.1);
+  border: 1px solid rgba(255,255,255,0.1);
   border-radius: 12px;
   box-shadow: 0px 0px 2px;
-  
   outline: none;
   font-weight: lighter;
 }
@@ -303,16 +299,17 @@ transition: 0.3s;
    font-size: large;
    width:220px;
    height: 220px;
-    border: 1px solid  rgba(255,255,255,0.1);
-  border-radius: 12PX;
-  box-shadow: 0PX 0PX 3px;
-  color: whitesmoke;
-  outline: none;
-  font-weight: lighter;
+   border: 1px solid  rgba(255,255,255,0.1);
+   border-radius: 12PX;
+   box-shadow: 0PX 0PX 3px;
+   color: whitesmoke;
+   outline: none;
+   font-weight: lighter;
 }
 .form-container textarea:focus{
   box-shadow: 0 0 10px;
 }
+/* contact ph-no */
 .form-container button{
   background-color: #000;
   border: transparent;
@@ -326,12 +323,12 @@ transition: 0.3s;
   background-color: rgb(28, 118, 140);
   box-shadow: 0 0 4px;
 }
-
+/* copyright & github etc links */
 .footer{
+ display: flex;
  color:   rgb(38, 149, 176);
  margin-left: 20px ;
  margin-bottom: 20px; 
- display: flex;
  justify-content: space-between;
 }
  .footer-link a{
@@ -349,8 +346,10 @@ transition: 0.3s;
 .footer-link a:hover{
   color:whitesmoke;
   background-color: rgb(28, 118, 140);
- color: 0.1s ease;
+  color: 0.1s ease;
 }
+/* menu media query 
+responsive as mobile app */
 @media(max-width:770px)
 {
   .nav-links{
