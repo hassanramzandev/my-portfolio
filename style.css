@@ -365,8 +365,16 @@ responsive as mobile app */
     display: flex;
   }
   .menu{
-    display: block;
-    
+    display: block; 
+  }
+  .pro-img img{
+    max-width: 300px;
+    display: flex;
+
+  }
+  .grid-container{
+    display: flex;
+    position:absolute
   }
 }
 
