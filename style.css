@@ -368,37 +368,72 @@ responsive as mobile app */
     display: block;
     
   }
-    .hero{
+  /* --- RESPONSIVE MOBILE LAYOUT (up to 768px) --- *
+  
+  /* --- Global Text & Layout --- */
+  body {
+    text-align: center; /* Center all text */
+    padding-left: 20px;   /* Left text cover/padding */
+    padding-right: 20px;  /* Right text cover/padding */
+  }
+
+  /* --- Logo (Centered & Smaller) --- */
+  .logo {
+    font-size: 20px;      /* Smaller logo font */
+    text-align: center;    /* Center logo text */
+    margin-bottom: 20px;   /* Margin below logo */
+  }
+
+  /* --- Hero Container (Flex Column) --- */
+  .hero {
     display: flex;
-    flex-direction: column-reverse;
-    text-align: center;
-    align-items: center;
-    padding: 20px;
-    gap: 30px;
+    flex-direction: column; /* Stack image and text vertically */
+    align-items: center;    /* Center everything horizontally */
   }
 
- .pro-img img{
-    width: 200px;
-    height: 200px;
-    margin: 0 auto;
+  /* --- Hero Image & Menu Icon --- */
+  .pro-img {
+    order: -1;            /* Move image to top of hero section */
+    margin-bottom: 25px;  /* Space below the image */
+  }
+  
+  .pro-img img {
+    max-width: 150px;     /* Set a max width for the picture */
+    width: 100%;
+    height: auto;
   }
 
-  .hero h1 h2{
-    font-size: 24px;
-    margin-bottom: 15px;
+
+  /* --- Hero Text & Content Gap --- */
+  .hero-text {
+    width: 100%;          /* Take full width */
+    margin-bottom: 40px;  /* Create gap between hero and about */
+  }
+  
+  /* --- Paragraph/Text Cover & Readability --- */
+  p, .hero-text p, #about p {
+    max-width: 350px;     /* Control line width for readability */
+    margin-left: auto;    /* Center the block */
+    margin-right: auto;   /* Center the block */
+    line-height: 1.6;     /* Improve line height for readability */
+    font-size: 16px;      /* Readable font size for paragraphs */
   }
 
-   .hero p{
-    font-size: 16px;
-    line-height: 1.5;
-    max-width: 100%;
-    padding: 0 10px;
+  /* --- About Section & Content --- */
+  #about {
+    margin-bottom: 50px;  /* Add space below about section */
+  }
+  
+  #about h2 {
+    font-size: 24px;      /* Adjust 'About Me' font size */
+    margin-bottom: 15px;  /* Gap below heading */
   }
 
-   .btn button{
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 10px;
+  /* --- Optional: Add gap to buttons --- */
+  .btn {
+    margin-top: 20px;
   }
 }
+ 
+
 
